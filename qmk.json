@@ -1,4 +1,8 @@
 {
     "userspace_version": "1.0",
-    "build_targets": []
+    "build_targets": [
+        ["planck/rev6", "dsanchezseco"],
+        ["punk75", "dsanchezseco"],
+        ["converter/ibm_terminal", "dsanchezseco"]
+    ]
 }
