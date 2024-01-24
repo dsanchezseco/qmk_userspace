@@ -28,14 +28,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 [_LOWER] = LAYOUT_planck_grid(
     KC_TILD, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RIGHT,KC_RPRN,
-    _______, KC_VOLD, KC_VOLU, KC_MPRV, KC_MPLY, KC_MNXT, _______, KC_LEFT, DV_LCBR, DV_RCBR, DV_EQL,  KC_PIPE,
+    _______, KC_VOLD, KC_VOLU, KC_MPRV, KC_MPLY, KC_MNXT, _______, KC_LEFT, DV_PLUS, DV_LCBR, DV_RCBR, KC_PIPE,
     _______, _______, _______, KC_DOWN, KC_UP,   _______, _______, _______, _______, KC_HOME, KC_END,  _______,
     _______, _______, _______, _______, _______, _______, KC_DEL,  _______, _______, _______, _______, _______
 ),
 
 [_RAISE] = LAYOUT_planck_grid(
     KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_RIGHT, KC_0,
-    _______, _______, _______, _______, _______, _______, _______, KC_LEFT, DV_LBRC, DV_RBRC, DV_PLUS,  DV_BSLS,
+    _______, _______, _______, _______, _______, _______, _______, KC_LEFT, DV_EQL,  DV_LBRC, DV_RBRC,  DV_BSLS,
     _______, _______, _______, KC_DOWN, KC_UP,   _______, _______, _______, _______, KC_PGUP, KC_PGDN,  _______,
     _______, _______, _______, _______, _______, _______, KC_DEL,  _______, _______, _______, _______,  _______
 ),
